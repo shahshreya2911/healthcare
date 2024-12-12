@@ -69,7 +69,7 @@ app.use(limiter);
 //     res.header("Access-Control-Max-Age", "3600");
 //     res.header("Access-Control-Allow-Headers", "Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With");
 //     next();
-// });
+// }); 
 
 // routes middleware
 

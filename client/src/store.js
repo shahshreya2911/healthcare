@@ -160,6 +160,7 @@ import {
 
 const reducer = combineReducers({
     userLogin: userLoginReducer,
+    userSignin: userLoginReducer,
     userRegister: userRegisterReducer,
     userDetails: userDetailsReducer,
     userUpdateProfile: userUpdateProfileReducer,
@@ -270,7 +271,7 @@ const userInfoFromStorage = localStorage.getItem('userInfo')
     : null
 
 const initialState = {
-    userLogin: { userInfo: userInfoFromStorage }
+    userSignin: { userInfo: userInfoFromStorage }
 }
 
 
